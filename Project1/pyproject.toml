@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.0.6",
     "pyarrow>=26.0.0",
@@ -26,5 +27,6 @@ build-backend = "uv_build"
 dev = [
     "ipykernel>=7.4.0",
     "jupytext>=1.19.6",
+    "nbdime>=4.0.4",
     "nbstripout>=0.9.1",
 ]
